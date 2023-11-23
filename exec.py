@@ -39,11 +39,21 @@ def consultar_cpf(cpf):
     else:
                 print(f"{Ired}Erro na consulta do cpf.{VRCRM}")
 
+def consultar_ip(ip):
+    url = f'https://ipwhois.app/json/{ip}'
+    response = requests.get(url)    
+    if response.status_code == 200:
+        data = response.json()
+        pprint.pprint(data)
+    else:
+        print(f"{Ired}Erro na consulta do ip.{VRCRM}")
+     
 def exibir_menu():
     print(f"{Hcyan}Menu:")
     print("1. Consultar nome")
     print("2. Consultar cpf")
-    print("3. Sair")
+    print("3. Consultar ip")
+    print("4. Sair")
 
 def menu():
     while True:
@@ -56,9 +66,12 @@ def menu():
         elif opcao == "2":
             cpf = input('Digite o cpf a ser consultado: ')
             consultar_cpf(cpf)
-        elif opcao == "3":
+        elif opcao == "4":
             print(f"{Nyellow}Encerrando o programa...{VRCRM}")
             break 
+        elif opcao == "3":
+             ip = input('Digite o ip a ser consultado: ')
+             consultar_ip(ip)
         else:
             print(f"{Ired}Opção inválida. Tente novamente.{VRCRM}")
 
