@@ -3,7 +3,7 @@ CPF
 💻 LINUX
 $ apt upgrade && apt update -y
 $ apt install git python -y
-$ git clone https://github.com/Kiny-Kiny/Kiny-Painel](https://github.com/666snake999/consulta_dados
+$ git clone https://github.com/666snake999/consulta_dados
 $ cd consulta_dados
 $ python consulta_cpf.py
 
@@ -18,7 +18,7 @@ py consulta_cpf.py
 💻 LINUX
 $ apt upgrade && apt update -y
 $ apt install git python -y
-$ git clone https://github.com/Kiny-Kiny/Kiny-Painel](https://github.com/666snake999/consulta_dados
+$ git clone https://github.com/666snake999/consulta_dados
 $ cd consulta_dados
 $ python consulta_nome.py
 
