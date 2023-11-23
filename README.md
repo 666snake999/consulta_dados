@@ -12,5 +12,7 @@
 Ⓐ cd consulta_dados
 Ⓐ py exec.py
 ```
-
+---------------------
+API's: fornecida pelo @saiky.saiky
+---------------------
 OBS:ainda estou adaptando esse script, tenham paciência
