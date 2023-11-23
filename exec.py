@@ -1,6 +1,7 @@
 import requests
 import pprint
 import json 
+import os
 
 Mblack = '\033[1;30m'   # Preto
 Ired = '\033[1;31m'     # Vermelho
@@ -12,14 +13,26 @@ Hcyan = '\033[1;36m'    # Ciano
 Twhite = '\033[1;37m'   # Branco
 VRCRM = '\033[0;0m'     # Remover
 
-print(f'''{Gpurple}
-███████╗███╗ ██╗ █████╗ ██╗ ██╗███████╗
-██╔════╝████╗ ██║██╔══██╗██║ ██╔╝██╔════╝
-███████╗██╔██╗ ██║███████║█████╔╝ █████╗  
-╚════██║██║╚██╗██║██╔══██║██╔═██╗ ██╔══╝  
-███████║██║ ╚████║██║ ██║██║ ██╗███████╗
-╚══════╝╚═╝ ╚═══╝╚═╝ ╚═╝╚═╝ ╚═╝╚══════╝
-{VRCRM}''')
+def clear_terminal():
+    os.system('cls') if os.name == 'nt' else os.system('clear')
+clear_terminal()
+
+print(f'''{Gpurple} .S_sSSs     .S_SSSs     .S   .S_sSSs      sSSs  S.              sSSs   .S_sSSs     .S_SSSs     .S    S.     sSSs
+.SS~YS%%b   .SS~SSSSS   .SS  .SS~YS%%b    d%%SP  SS.            d%%SP  .SS~YS%%b   .SS~SSSSS   .SS    SS.   d%%SP
+S%S   `S%b  S%S   SSSS  S%S  S%S   `S%b  d%S'    S%S           d%S'    S%S   `S%b  S%S   SSSS  S%S    S&S  d%S'
+S%S    S%S  S%S    S%S  S%S  S%S    S%S  S%S     S%S           S%|     S%S    S%S  S%S    S%S  S%S    d*S  S%S
+S%S    d*S  S%S SSSS%S  S&S  S%S    S&S  S&S     S&S           S&S     S%S    S&S  S%S SSSS%S  S&S   .S*S  S&S
+S&S   .S*S  S&S  SSS%S  S&S  S&S    S&S  S&S_Ss  S&S           Y&Ss    S&S    S&S  S&S  SSS%S  S&S_sdSSS   S&S_Ss
+S&S_sdSSS   S&S    S&S  S&S  S&S    S&S  S&S~SP  S&S           `S&&S   S&S    S&S  S&S    S&S  S&S~YSSY%b  S&S~SP
+S&S~YSSY    S&S    S&S  S&S  S&S    S&S  S&S     S&S             `S*S  S&S    S&S  S&S    S&S  S&S    `S%  S&S
+S*S         S*S    S&S  S*S  S*S    S*S  S*b     S*b              l*S  S*S    S*S  S*S    S&S  S*S     S%  S*b
+S*S         S*S    S*S  S*S  S*S    S*S  S*S.    S*S.            .S*P  S*S    S*S  S*S    S*S  S*S     S&  S*S.
+S*S         S*S    S*S  S*S  S*S    S*S   SSSbs   SSSbs        sSS*S   S*S    S*S  S*S    S*S  S*S     S&   SSSbs
+S*S         SSS    S*S  S*S  S*S    SSS    YSSP    YSSP        YSS'    S*S    SSS  SSS    S*S  S*S     SS    YSSP
+SP                 SP   SP   SP                                        SP                 SP   SP
+Y                  Y    Y    Y                                         Y                  Y    Y
+
+''')
 
 def consultar_nome(nome):
     url = f'https://apisdedicado.nexos.dev/SerasaNome/nome?token=2ae274ad75c45b657547631a82358dbc&nome={nome}'
