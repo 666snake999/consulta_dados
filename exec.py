@@ -20,22 +20,22 @@ def clear_terminal():
     os.system('cls') if os.name == 'nt' else os.system('clear')
 clear_terminal()
 
-print(f'''{Gpurple} .S_sSSs     .S_SSSs     .S   .S_sSSs      sSSs  S.              sSSs   .S_sSSs     .S_SSSs     .S    S.     sSSs
-.SS~YS%%b   .SS~SSSSS   .SS  .SS~YS%%b    d%%SP  SS.            d%%SP  .SS~YS%%b   .SS~SSSSS   .SS    SS.   d%%SP
-S%S   `S%b  S%S   SSSS  S%S  S%S   `S%b  d%S'    S%S           d%S'    S%S   `S%b  S%S   SSSS  S%S    S&S  d%S'
-S%S    S%S  S%S    S%S  S%S  S%S    S%S  S%S     S%S           S%|     S%S    S%S  S%S    S%S  S%S    d*S  S%S
-S%S    d*S  S%S SSSS%S  S&S  S%S    S&S  S&S     S&S           S&S     S%S    S&S  S%S SSSS%S  S&S   .S*S  S&S
-S&S   .S*S  S&S  SSS%S  S&S  S&S    S&S  S&S_Ss  S&S           Y&Ss    S&S    S&S  S&S  SSS%S  S&S_sdSSS   S&S_Ss
-S&S_sdSSS   S&S    S&S  S&S  S&S    S&S  S&S~SP  S&S           `S&&S   S&S    S&S  S&S    S&S  S&S~YSSY%b  S&S~SP
-S&S~YSSY    S&S    S&S  S&S  S&S    S&S  S&S     S&S             `S*S  S&S    S&S  S&S    S&S  S&S    `S%  S&S
-S*S         S*S    S&S  S*S  S*S    S*S  S*b     S*b              l*S  S*S    S*S  S*S    S&S  S*S     S%  S*b
-S*S         S*S    S*S  S*S  S*S    S*S  S*S.    S*S.            .S*P  S*S    S*S  S*S    S*S  S*S     S&  S*S.
-S*S         S*S    S*S  S*S  S*S    S*S   SSSbs   SSSbs        sSS*S   S*S    S*S  S*S    S*S  S*S     S&   SSSbs
-S*S         SSS    S*S  S*S  S*S    SSS    YSSP    YSSP        YSS'    S*S    SSS  SSS    S*S  S*S     SS    YSSP
-SP                 SP   SP   SP                                        SP                 SP   SP
-Y                  Y    Y    Y                                         Y                  Y    Y
-
-''')
+print(f'''{Ired}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⠀⠀⠀⠀⠀⠀⠀⠀⢀⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⡀⠠⠤⠤⠶⠦⡴⣞⢦⣘⡿⣦⣀⠀⠀⠀⠀⣀⣠⡾⣇⣠⣞⡶⡤⠶⠶⠤⠤⢄⣀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⡠⠂⠈⠀⠀⠀⠀⠀⠀⠀⢻⢿⣿⣷⢻⡟⠋⠑⡖⠉⠛⣿⢱⣿⡿⢻⠃⠀⠀⠀⠀⠀⠀⠈⠑⠢⡀⠀⠀⠀⠀
+⠀⠀⣠⠎⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡓⣿⠞⠃⠀⠀⠀⡿⠀⠀⠀⠻⢿⡇⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢢⡀⠀⠀
+⠀⣰⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⢠⣾⡏⡉⠃⠀⠀⠀⠀⠇⠀⠀⠀⠀⠋⡉⣿⣆⢤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢳⡀⠀
+⢠⠃⠀⠀⠀⠠⡀⠀⡤⠞⠛⠒⠦⣶⣯⡿⠋⣂⠀⠀⢄⠀⠀⠀⠀⠀⢀⡊⢻⣾⣷⡵⠖⠒⠚⢦⡄⠀⣠⠀⠀⠀⠀⣷⠀
+⣾⠀⠀⠀⠀⠀⠻⣾⡇⠀⠀⠀⠀⠙⢻⠃⣦⣨⣳⣦⡀⢱⣶⠂⣠⣶⣫⣠⣆⢿⠛⠀⠀⠀⠀⠀⣽⡶⠃⠀⠀⠀⠀⢸⡀
+⣿⣄⡀⠀⠀⠀⠀⠈⠛⠦⣀⠀⠀⠀⠸⣄⣈⠙⠉⠉⢙⠾⠿⣞⠉⠉⠉⢉⣀⡼⠁⠀⠀⢀⡠⠞⠋⠀⠀⠀⠀⠀⢀⢾⡇
+⢻⣎⠣⣀⠀⠀⠀⠀⠀⠀⠉⠓⢦⡀⠀⠈⢣⠀⣴⡖⠻⢆⢠⠾⠑⢶⡄⢠⡇⠀⠀⣠⠖⠋⠀⠀⠀⠀⠀⠀⢀⡠⢋⣾⠁
+⠀⠙⠧⣈⠑⠢⢤⣤⣀⣀⣀⠀⠀⠹⡤⠴⣿⣷⠻⣿⣷⣶⣿⣶⣿⡿⣣⣿⢻⠊⡾⠁⠀⢀⣀⣀⣠⡤⠤⠖⢉⡠⠟ ⠁⠀
+⠀⠀⠀⠀⠉⠉⣩⠟⠋⠉⠉⠙⣆⠀⡇⡼⢿⠙⣧⠻⠿⠿⠿⠻⠿⢃⡏⢹⡼⡆⡇⢀⣾⣯⠽⠋⠉⠉⠛⠯⣁⡄⠀⠀⠀
+⠀⠀⠀⣀⠴⠞⠋⠀⠀⠀⠀⣀⠼⡼⠋⠀⠘⡆⢻⣆⠀⠀⡆⠀⢀⣾⠀⡿⠁⠈⠻⡾⠋⠀⠀⠀⠀⠀⠀⠀⠀⠙⠒⠂⠀
+⠀⠐⠿⠄⢀⣀⣀⣠⡐⠚⠉⠁⠀⠀⠀⠀⠀⢹⢸⠙⡄⠀⡇⠀⣾⢻⡆⠇⠀⠀⠀⠀⠀⠀⣠⠤⠂⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠐⠂⠤⠄⣀⣀⣀⠈⢧⣷⣀⡇⢠⠇⠀⠇⠀⠀⣀⡠⠤⠒⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠈⠉⠙⢏⣙⡵⠒⠈⠉⡉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠑⠢⠤⠈⠈⠀⠀⠔⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀''')
 
 
 def pprint_colored(data):
@@ -77,14 +77,31 @@ def consultar_cep(cep):
           pprint_colored(data)
      else:
           print(f"{Ired}Erro na consulta do cep.{VRCRM}")
-        
+
+def consultar_cnpj(cnpj):
+     url = f'https://www.receitaws.com.br/v1/cnpj/{cnpj}'
+     response = requests.get(url)
+     if response.status_code == 200:
+          data = response.json()
+          pprint_colored(data)
+     else:
+          print(f"{Ired}Erro na consulta do cnpj.{VRCRM}")
+
 def exibir_menu():
-    print(f"{Hcyan}Menu:")
-    print("1. Consultar nome")
-    print("2. Consultar cpf")
-    print("3. Consultar ip")
-    print("4. Consultar cep")
-    print("5. Sair")
+    print(f'''{Gpurple}-----------------------------------
+|                                 |
+|     PAINEL SNAKE x SAIKY        |
+|                                 |
+|     Digite a opção desejada     |
+|                                 |
+| 1. Consulta nome                |
+| 2. Consulta cpf                 |
+| 3. Consulta cnpj                |
+| 4. Consulta ip                  |
+| 5. Consulta cep                 |
+| 6. Sair                         |
+|                                 |
+-----------------------------------''')
 
 def menu():
     while True:
@@ -97,15 +114,18 @@ def menu():
         elif opcao == "2":
             cpf = input('Digite o cpf a ser consultado: ')
             consultar_cpf(cpf)
-        elif opcao == "5":
+        elif opcao == "6":
             print(f"{Nyellow}Encerrando o programa...{VRCRM}")
             break 
-        elif opcao == "3":
+        elif opcao == "4":
              ip = input('Digite o ip a ser consultado: ')
              consultar_ip(ip)
-        elif opcao == "4":
+        elif opcao == "5":
              cep = input('Digite o cep a ser consultado: ')
              consultar_cep(cep)
+        elif opcao == "3":
+             cnpj = input('Digite o cnpj a ser consultado: ')
+             consultar_cnpj(cnpj)
         else:
             print(f"{Ired}Opção inválida. Tente novamente.{VRCRM}")
 
