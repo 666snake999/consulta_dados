@@ -5,7 +5,7 @@
 Ⓐ git clone https://github.com/666snake999/consulta_dados
 Ⓐ cd consulta_dados
 Ⓐ pip3 install -r requirements.txt
-Ⓐ python exec.py
+Ⓐ python3 exec.py
 
 💻 WINDOWS
 
