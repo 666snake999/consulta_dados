@@ -1,11 +1,10 @@
 --------------------------------------------
 
-maker: @kalistreetartt
-	   	   
-parceiro/patrocinador: 
-	@saiky.saiky 
+maker: @kalistreetart
+
+parceiro/patrocinador:
+        @saiky.saiky
 
 #se você quiser contribuir para que o painel continue de graça
 #pix: 12d26c8f-ee07-4f41-92f4-3f19a0dfbc97
 --------------------------------------------
-
